@@ -8,17 +8,13 @@ void setup() {
    
   img = loadImage("flag.png");
   Guy = loadImage("guy.fieri.png");
-   //tint(255);
+ 
  image(img, 0, 0);
  image(Guy, mouseX-100, mouseY-200, 158, 225);
 }
 
 void draw() {
- //background(0);
-  //tint(255);
-  //image(img, 0, 0);
-  
-  //image(Guy, mouseX-100, mouseY-200, 158, 225);
+
 
 
 }
