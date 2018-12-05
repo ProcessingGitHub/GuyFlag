@@ -13,7 +13,7 @@ void setup() {
 }
 
 void draw() {
- 
+ background(0);
   tint(255, 200);
   //image(img, 0, 0);
   
