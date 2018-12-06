@@ -9,7 +9,8 @@ void setup() {
   img = loadImage("flag.png");
   Guy = loadImage("guy.fieri.png");
 
- 
+ image(img, 0, 0);
+ image(Guy, mouseX-100, mouseY-200, 158, 225);
  
 }
 
