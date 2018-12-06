@@ -1,7 +1,6 @@
-//add loadImage2 code here
+
 PImage img;
 PImage Guy;
-
 
 void setup() {
   size(600,500);
@@ -9,18 +8,9 @@ void setup() {
   img = loadImage("flag.png");
   Guy = loadImage("guy.fieri.png");
 
- image(img, 0, 0);
- image(Guy, 100,100, 158, 225);
-
- 
+  image(img, 0, 0);
 }
 
 void draw() {
-
-
  image(Guy, mouseX-100, mouseY-200, 158, 225);
-
- 
-
-
 }
