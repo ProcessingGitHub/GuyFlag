@@ -10,14 +10,14 @@ void setup() {
   Guy = loadImage("guy.fieri.png");
 
  image(img, 0, 0);
- image(Guy, mouseX-100, mouseY-200, 158, 225);
+ image(Guy, 100,100, 158, 225);
 
  
 }
 
 void draw() {
 
-image(img, 0, 0);
+
  image(Guy, mouseX-100, mouseY-200, 158, 225);
 
  
