@@ -8,8 +8,8 @@ void setup() {
    
   img = loadImage("flag.png");
   Guy = loadImage("guy.fieri.png");
- //background(129);
- image(img, 0, 0,10,10);
+
+ image(img, 0, 0);
  
 }
 
